@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[qsp.DemoA]]>
+    </line>
+    <line>
+      <![CDATA[qsp.DemoB]]>
+    </line>
+    <line>
+      <![CDATA[testA]]>
+    </line>
+    <line>
+      <![CDATA[testB]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="108" started-at="2018-03-08T05:43:17Z" finished-at="2018-03-08T05:43:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="108" started-at="2018-03-08T05:43:17Z" finished-at="2018-03-08T05:43:17Z">
+      <class name="qsp.DemoA">
+        <test-method status="PASS" signature="testA()[pri:0, instance:qsp.DemoA@1725dc0f]" name="testA" duration-ms="16" started-at="2018-03-08T11:13:17Z" finished-at="2018-03-08T11:13:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[testA]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testA -->
+      </class> <!-- qsp.DemoA -->
+      <class name="qsp.DemoB">
+        <test-method status="PASS" signature="testB()[pri:0, instance:qsp.DemoB@41e36e46]" name="testB" duration-ms="2" started-at="2018-03-08T11:13:17Z" finished-at="2018-03-08T11:13:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[testB]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testB -->
+      </class> <!-- qsp.DemoB -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
